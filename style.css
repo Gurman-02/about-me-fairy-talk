@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height:100%
+    
+}
+
+#main { 
+width: 100%;
+color:white;
+height:100vh;
+background-color: black;
+}
+
+#landing-page{
+  position: relative;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+#nav-bar{
+    width:100%;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    ;
+}
+
+#nav-bar>a {
+  color: white;  
+  text-decoration: none;
+  font-size: 18px;
+}
+#heading{
+  margin-left:30px;
+    margin-top: 90px;
+}
+
+/* #heading h1{
+    font-size:9vw;
+    opacity: .6;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-left: 30px;
+
+
+}
+
+ #heading #secondh1{
+    margin-left: 30px;
+    
+}  */
+
+
+
+
+
+
+#word-container {
+    /* display: block; */
+    font-size: 9vw; 
+  }
+  
+  .letter {
+    display: inline;
+    font-size:4vw;
+    opacity: .6;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-right: 0px;
+    font-weight: bold;
+  }
+
+  .first-letter{
+    color: black;
+ opacity: 0;
+  }
+
+
+  .blocktext{
+    /* margin-top: 15px; */
+    width: fit-content;
+    font-size:5%;
+  }
+
+
+  .second{
+    font-size: 2vw;
+  }
+  .blocktext h5{
+    margin-top: 10px;
+    opacity: 0.6;
+    text-align: right;
+    font-size: 15px;
+    text-transform:uppercase;
+  }
+
+  #smallheadings{
+margin-top: 15px;
+
+text-align:right;
+text-transform:uppercase;
+padding-right:0 1vw;
+}
+
+#smallheadings > h5{
+    margin-top:.5vw;
+    font-size: 1vw;;
+}
+
+#heading-footer> a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+
+    
+}
+
+#heading-footer{
+  position:absolute;
+  bottom:3%;
+  width:100%;
+
+  padding:0 1vw;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+}
+
+#iconset{
+  display: flex;
+  padding-right: 20px;
+
+}
+#heading-footer .circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:25px;
+  height:25px;
+  border-radius: 50%;
+  background-color: white;
+  
+}
+
+
+.down{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+#second-page{
+  width:100%;
+  height:100vh;
+  background-color: black;
+  padding-top: 10px;
+  padding-right: 10vw;
+  text-transform: uppercase;
+}
+
+.elem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  border-top: 1px solid #888;
+  padding:3.5vw 3vw;
+  padding-right:0;
+  position: relative;
+}
+
+
+.elem h5{
+  opacity:.7;
+}
+.elem h1{
+  font-size: 3vw;
+  opacity:.7;
+}
+.elemlast{
+  border-bottom: 1px solid #888;
+}
+
+.elem img{
+  position:absolute;
+z-index: 999;
+height:140%;
+display:none;
+
+}
+
+.profile-photo{
+  width: 200px;
+  height:15vw;
+  
+
+}
+ #about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:50px;
+  padding:10vw 10vw;
+  /* padding-left:40vw; */
+  width:100%;
+  background-color: black;
+ }
+
+ #about> a{
+  color: #fff;
+ }
+
+
+ .letter2 {
+  /* display: inline; */
+  font-size:2vw;
+  opacity: .6;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-right: 0px;
+  font-weight: bold;
+}
+
+.bounding{
+  width: fit-content;
+  /* overflow: hidden; */
+  /* background-color: red; */
+}
+
+.bounding>letter{
+  transform: translateY(100%);
+}
+
+#about p,
+#second-page h1,
+#second-page h5 ,
+.letter2{
+    color: white; 
+}
+
+
+
+
+
+
+.elem img {
+  position: absolute;
+  z-index: 999;
+  max-width: 500px; /* Adjust the maximum width as needed */
+  max-height: 400px; /* Adjust the maximum height as needed */
+  display: none;
+  pointer-events: none; /* This will allow the mouse to move over the image without triggering other events */
+}
+
+.elem:hover img {
+  display: block;
+}
